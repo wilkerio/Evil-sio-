@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://evilasiojr.com.br/sitemap.xml

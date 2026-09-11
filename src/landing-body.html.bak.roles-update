@@ -1,0 +1,544 @@
+</head>
+<body>
+
+<!-- ================= ANIMAÇÃO DE ENTRADA DA LOGO ================= -->
+<div id="boot">
+  <video autoplay muted playsinline preload="auto" aria-label="Evilásio Júnior">
+    <source src="assets/video/logo-intro.mp4" type="video/mp4">
+  </video>
+</div>
+
+<!-- ================= NAV ================= -->
+<header class="nav">
+  <div class="nav-in">
+    <a href="#" class="brand">
+      <img src="assets/logo/ej-compact-gold.svg" alt="Evilásio Júnior" width="36" height="36">
+      <div class="brand-tx">EVILÁSIO<small>JÚNIOR</small></div>
+    </a>
+    <nav class="nav-links">
+      <a href="#solucoes">Soluções</a><a href="#arquitetura">Arquitetura</a>
+      <a href="#alcance">Alcance</a><a href="#processo">Processo</a>
+      <a href="#origem">Origem</a><a href="#time">Time</a><a href="#faq">FAQ</a>
+    </nav>
+    <a href="#contato" class="btn btn-gold nav-cta" id="navCtaDesktop" style="padding:12px 22px;font-size:13px">Falar com o time</a>
+    <button class="nav-burger" id="navBurger" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="nav-mobile" id="navMobile">
+    <a href="#solucoes">Soluções</a><a href="#arquitetura">Arquitetura</a>
+    <a href="#alcance">Alcance</a><a href="#processo">Processo</a>
+    <a href="#origem">Origem</a><a href="#time">Time</a><a href="#faq">FAQ</a>
+    <a href="#contato" class="btn btn-gold" style="margin-top:10px;justify-content:center">Falar com o time</a>
+  </nav>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="scene" aria-hidden="true">
+    <svg viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice">
+      <defs>
+        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#0a2438"/><stop offset=".45" stop-color="#0a2035"/><stop offset="1" stop-color="#050f1b"/>
+        </linearGradient>
+        <radialGradient id="glow" cx=".78" cy=".72" r=".5">
+          <stop offset="0" stop-color="#B59A5A" stop-opacity=".28"/><stop offset="1" stop-color="#B59A5A" stop-opacity="0"/>
+        </radialGradient>
+        <linearGradient id="t1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#193b58"/><stop offset="1" stop-color="#08192a"/></linearGradient>
+        <linearGradient id="t2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#12304a"/><stop offset="1" stop-color="#061423"/></linearGradient>
+        <linearGradient id="t3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d2439"/><stop offset="1" stop-color="#050f1c"/></linearGradient>
+        <linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a2338"/><stop offset="1" stop-color="#040c16"/></linearGradient>
+      </defs>
+
+      <rect width="1440" height="900" fill="url(#sky)" opacity=".62"/>
+      <rect width="1440" height="900" fill="url(#glow)"/>
+
+      <!-- camada distante -->
+      <g opacity=".45">
+        <rect x="60" y="470" width="70" height="330" fill="url(#t3)"/>
+        <rect x="150" y="520" width="54" height="280" fill="url(#t3)"/>
+        <rect x="225" y="440" width="82" height="360" fill="url(#t3)"/>
+        <rect x="330" y="500" width="60" height="300" fill="url(#t3)"/>
+        <rect x="410" y="455" width="74" height="345" fill="url(#t3)"/>
+      </g>
+
+      <!-- camada média -->
+      <g opacity=".8">
+        <rect x="500" y="400" width="96" height="400" fill="url(#t2)"/>
+        <rect x="612" y="330" width="78" height="470" fill="url(#t2)"/>
+        <rect x="706" y="440" width="66" height="360" fill="url(#t2)"/>
+        <rect x="788" y="290" width="104" height="510" fill="url(#t2)"/>
+      </g>
+
+      <!-- torres principais -->
+      <g>
+        <rect x="920" y="230" width="118" height="570" fill="url(#t1)"/>
+        <rect x="1056" y="330" width="86" height="470" fill="url(#t1)"/>
+        <rect x="1160" y="170" width="140" height="630" fill="url(#t1)"/>
+        <rect x="1316" y="380" width="88" height="420" fill="url(#t1)"/>
+        <!-- topos -->
+        <rect x="1215" y="120" width="30" height="50" fill="url(#t1)"/>
+        <rect x="1228" y="80" width="4" height="42" fill="#B59A5A" opacity=".6"/>
+        <circle cx="1230" cy="76" r="4" fill="#B59A5A"/>
+      </g>
+
+      <!-- janelas acesas -->
+      <g fill="#B59A5A">
+        <g opacity=".55">
+          <rect x="944" y="270" width="9" height="12"/><rect x="968" y="270" width="9" height="12"/><rect x="1004" y="270" width="9" height="12"/>
+          <rect x="944" y="318" width="9" height="12"/><rect x="992" y="318" width="9" height="12"/>
+          <rect x="968" y="366" width="9" height="12"/><rect x="1004" y="366" width="9" height="12"/>
+          <rect x="944" y="414" width="9" height="12"/><rect x="1004" y="462" width="9" height="12"/>
+          <rect x="968" y="510" width="9" height="12"/><rect x="944" y="558" width="9" height="12"/>
+        </g>
+        <g opacity=".5">
+          <rect x="1080" y="368" width="9" height="12"/><rect x="1112" y="368" width="9" height="12"/>
+          <rect x="1080" y="420" width="9" height="12"/><rect x="1112" y="472" width="9" height="12"/>
+          <rect x="1080" y="524" width="9" height="12"/><rect x="1112" y="576" width="9" height="12"/>
+        </g>
+        <g opacity=".6">
+          <rect x="1186" y="210" width="10" height="13"/><rect x="1218" y="210" width="10" height="13"/><rect x="1256" y="210" width="10" height="13"/>
+          <rect x="1186" y="262" width="10" height="13"/><rect x="1256" y="262" width="10" height="13"/>
+          <rect x="1218" y="314" width="10" height="13"/><rect x="1256" y="314" width="10" height="13"/>
+          <rect x="1186" y="366" width="10" height="13"/><rect x="1218" y="418" width="10" height="13"/>
+          <rect x="1256" y="470" width="10" height="13"/><rect x="1186" y="522" width="10" height="13"/>
+          <rect x="1218" y="574" width="10" height="13"/><rect x="1256" y="626" width="10" height="13"/>
+        </g>
+        <g opacity=".4">
+          <rect x="1340" y="418" width="9" height="12"/><rect x="1372" y="466" width="9" height="12"/><rect x="1340" y="514" width="9" height="12"/>
+          <rect x="812" y="330" width="8" height="11"/><rect x="846" y="378" width="8" height="11"/><rect x="812" y="426" width="8" height="11"/>
+          <rect x="632" y="370" width="8" height="11"/><rect x="662" y="418" width="8" height="11"/>
+        </g>
+      </g>
+
+      <!-- linha d'água / reflexo -->
+      <rect y="800" width="1440" height="100" fill="url(#water)"/>
+      <g opacity=".18" fill="#B59A5A">
+        <rect x="1186" y="812" width="10" height="34"/><rect x="1218" y="812" width="10" height="26"/>
+        <rect x="944" y="812" width="9" height="30"/><rect x="1080" y="812" width="9" height="22"/>
+        <rect x="1340" y="812" width="9" height="26"/>
+      </g>
+      <g stroke="#DCE6EA" stroke-width=".6" opacity=".08">
+        <line x1="0" y1="828" x2="1440" y2="828"/><line x1="0" y1="852" x2="1440" y2="852"/><line x1="0" y1="876" x2="1440" y2="876"/>
+      </g>
+
+      <!-- órbita da marca -->
+      <g fill="none" stroke="#B59A5A">
+        <circle cx="1180" cy="200" r="300" opacity=".12"/>
+        <circle cx="1180" cy="200" r="200" opacity=".08"/>
+      </g>
+    </svg>
+  </div>
+
+  <div class="wrap hero-in">
+    <div class="kicker rise d1">Evilásio Júnior</div>
+    <h1 class="rise d2">O capital existe. O que falta é a <em>estrutura</em> que chega até ele.</h1>
+    <p class="hero-sub rise d3">Estruturamos operações de capital internacional para empresas que já superaram o que o crédito local consegue oferecer.</p>
+    <div class="hero-cta rise d4">
+      <a href="#contato" class="btn btn-gold">Verificar elegibilidade da minha empresa</a>
+      <a href="#arquitetura" class="btn btn-line">Ver como estruturamos →</a>
+    </div>
+    <div class="hero-stats rise d5">
+      <div><b>US$ 900MM+</b><span>em operações de crédito internacional já estruturadas</span></div>
+      <div><b>US$ 3MM – 300MM</b><span>faixa de operação por estrutura de capital</span></div>
+      <div><b>EUA &amp; Europa</b><span>fundos, bancos e veículos financeiros conectados</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="ticker" aria-hidden="true">
+  <div class="tk">
+    <span>Capital Advisory</span><span>Structured Finance</span><span>International Capital</span><span>Asset Capital</span><span>Corporate Funding</span><span>Project Finance</span><span>Private Capital</span><span>Growth Capital</span>
+    <span>Capital Advisory</span><span>Structured Finance</span><span>International Capital</span><span>Asset Capital</span><span>Corporate Funding</span><span>Project Finance</span><span>Private Capital</span><span>Growth Capital</span>
+  </div>
+</div>
+
+<!-- ================= PROVOCAÇÃO ================= -->
+<section class="sect prov">
+  <div class="wrap prov-in">
+    <div class="reveal">
+      <div class="kicker">O problema real</div>
+      <p class="prov-q">"Poucas empresas são barradas por falta de mérito. Quase todas são barradas por falta de estrutura."</p>
+    </div>
+    <div class="reveal">
+      <div class="prow"><i>01</i><div>O crédito local para no limite do faturamento e no histórico bancário, não no potencial da operação.</div></div>
+      <div class="prow"><i>02</i><div>Ativos relevantes seguem parados porque ninguém os organizou como garantia elegível lá fora.</div></div>
+      <div class="prow"><i>03</i><div>O capital internacional está disponível, mas exige uma linguagem técnica que a empresa não fala sozinha.</div></div>
+      <div class="prow"><i>04</i><div>Sem arquitetura, a operação sequer chega à mesa de quem decide.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SOLUÇÕES ================= -->
+<section class="sect dark" id="solucoes" style="position:relative;overflow:hidden;background:linear-gradient(180deg,rgba(7,26,43,.94),rgba(7,26,43,.98)),url('assets/img/evilasio-dark-graphite-texture.png') center/cover no-repeat">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="kicker">Arquitetura de produtos</div>
+      <h2 class="h2">Uma plataforma, cinco frentes.</h2>
+      <p class="lead">Cada frente resolve uma camada distinta da mesma questão: transformar patrimônio, projeto e capacidade empresarial em capital disponível.</p>
+    </div>
+    <div class="sol-grid reveal">
+      <div class="sol">
+        <div class="sol-ic-wrap"><img class="sol-ic" src="assets/img/icons/final/capital-advisory.svg" alt="" width="30" height="30"></div>
+        <h3>Capital Advisory</h3>
+        <p>Diagnóstico e estratégia antes de qualquer proposta. Entender a empresa é o que define a estrutura, nunca o contrário.</p>
+      </div>
+      <div class="sol">
+        <div class="sol-ic-wrap"><img class="sol-ic" src="assets/img/icons/final/structured-finance.svg" alt="" width="30" height="30"></div>
+        <h3>Structured Finance</h3>
+        <p>Operações desenhadas caso a caso: instrumento, prazo, garantia e moeda definidos pelo perfil real do negócio.</p>
+      </div>
+      <div class="sol">
+        <div class="sol-ic-wrap"><img class="sol-ic" src="assets/img/icons/final/international-capital.svg" alt="" width="30" height="30"></div>
+        <h3>International Capital</h3>
+        <p>Representação institucional da operação junto a fundos e bancos nos Estados Unidos e na Europa.</p>
+      </div>
+      <div class="sol">
+        <div class="sol-ic-wrap"><img class="sol-ic" src="assets/img/icons/final/asset-capital.svg" alt="" width="30" height="30"></div>
+        <h3>Asset Capital</h3>
+        <p>Estruturas de ativos e garantias. Patrimônio que hoje está imobilizado passa a sustentar a operação de capital.</p>
+      </div>
+      <div class="sol">
+        <div class="sol-ic-wrap"><img class="sol-ic" src="assets/img/icons/final/corporate-funding.svg" alt="" width="30" height="30"></div>
+        <h3>Corporate Funding</h3>
+        <p>CAPEX, OPEX e repactuação de dívida reunidos em uma única arquitetura, sob regime de juros simples.</p>
+      </div>
+      <div class="sol" style="display:flex;align-items:center">
+        <p class="quote" style="color:var(--goldl);font-size:1.15rem;line-height:1.55">"O trabalho é menos sobre encontrar dinheiro e mais sobre montar a estrutura que permite ao dinheiro chegar."</p>
+      </div>
+    </div>
+    <div class="reveal" style="margin-top:44px;text-align:center">
+      <a href="#contato" class="btn btn-gold">Ver se minha empresa se enquadra</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ARQUITETURA ================= -->
+<section class="sect" id="arquitetura">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="kicker">Arquitetura de Capital Evilásio</div>
+      <h2 class="h2">Todo capital tem uma arquitetura.</h2>
+      <p class="lead">A lógica é sempre a mesma: um ativo vira estrutura, a estrutura destrava capital, o capital sustenta crescimento. O que muda de empresa para empresa é o desenho de cada camada.</p>
+    </div>
+    <div class="arch-stage reveal">
+      <div class="arch-icons">
+        <div><img src="assets/img/icons/arquitetura/capital_architecture_icons/ativo.svg" alt="" width="64" height="64"><span>ATIVO</span></div>
+        <i></i>
+        <div><img src="assets/img/icons/arquitetura/capital_architecture_icons/estrutura.svg" alt="" width="64" height="64"><span>ESTRUTURA</span></div>
+        <i></i>
+        <div><img src="assets/img/icons/arquitetura/capital_architecture_icons/capital.svg" alt="" width="64" height="64"><span>CAPITAL</span></div>
+        <i></i>
+        <div><img src="assets/img/icons/arquitetura/capital_architecture_icons/crescimento.svg" alt="" width="64" height="64"><span>CRESCIMENTO</span></div>
+      </div>
+      <div class="arch-cap">
+        <div><h4>Ativo</h4><p>Patrimônio, recebíveis, projeto ou operação que a empresa já possui.</p></div>
+        <div><h4>Estrutura</h4><p>Instrumento, garantia e enquadramento jurídico desenhados para o caso.</p></div>
+        <div><h4>Capital</h4><p>Recurso internacional acessado sob a estrutura aprovada.</p></div>
+        <div><h4>Crescimento</h4><p>Expansão, CAPEX ou reorganização financeira efetivamente executada.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ALCANCE / MAPA ================= -->
+<section class="sect graph" id="alcance" style="background:linear-gradient(rgba(24,33,43,.92),rgba(24,33,43,.92)),url('assets/img/evilasio-dark-graphite-texture.png') center/cover no-repeat">
+  <div class="wrap alcance-split">
+    <div class="reveal alcance-text">
+      <div class="kicker">Alcance</div>
+      <h2 class="h2">Capital não tem fronteira. Estrutura tem.</h2>
+      <p class="lead">A operação nasce no Brasil e é apresentada a mesas de decisão fora dele. O trabalho é fazer as duas pontas falarem a mesma língua técnica.</p>
+      <div class="map-legend map-legend-stacked">
+        <div><b>Origem</b> — a empresa e seus ativos, no Brasil</div>
+        <div><b>Destino</b> — fundos e bancos nos EUA e na Europa</div>
+        <div><b>Ponte</b> — a estrutura que torna a operação legível para os dois lados</div>
+      </div>
+      <a href="#contato" class="btn btn-gold" style="margin-top:32px">Estruturar minha operação</a>
+    </div>
+    <div class="map-stage reveal">
+      <img src="assets/img/evilasio-map.png" alt="Conexões entre Brasil, América do Norte e Europa" style="width:100%;height:100%;object-fit:cover;display:block">
+      <div class="map-cta" id="mapCta">
+        <img class="active" src="assets/img/cta-bg/rede.png" alt="">
+        <img src="assets/img/cta-bg/grid.png" alt="">
+        <img src="assets/img/cta-bg/particulas.png" alt="">
+        <div class="map-cta-in">
+          <span>Sua empresa pode se enquadrar nesse tipo de estrutura.</span>
+          <a href="#contato">Solicitar diagnóstico →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROCESSO ================= -->
+<section class="sect dark" id="processo">
+  <div class="wrap reveal">
+    <div class="kicker">Como funciona</div>
+    <h2 class="h2">Quatro movimentos, nenhum atalho.</h2>
+    <p class="lead">Cada etapa existe para reduzir risco e tempo — nunca para simplificar a análise.</p>
+  </div>
+  <div class="wrap">
+    <div class="proc-grid reveal">
+      <div class="proc"><b>01</b><h3>Diagnóstico</h3><p>Elegibilidade avaliada por faturamento, ativos, documentação e objetivo de capital.</p></div>
+      <div class="proc"><b>02</b><h3>Estruturação</h3><p>Desenho da operação: instrumento, garantias, moeda e enquadramento jurídico.</p></div>
+      <div class="proc"><b>03</b><h3>Conexão</h3><p>Apresentação institucional da operação às mesas internacionais qualificadas.</p></div>
+      <div class="proc"><b>04</b><h3>Acompanhamento</h3><p>Assessoria contínua até a liquidação, com saúde financeira monitorada.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PARA QUEM ================= -->
+<section class="sect" id="para-quem" style="background:linear-gradient(rgba(243,242,238,.95),rgba(243,242,238,.95)),url('assets/img/evilasio-service-icons.png') right center/contain no-repeat">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="kicker">Território</div>
+      <h2 class="h2">Para quem o Evilásio existe — e para quem não existe.</h2>
+      <p class="lead">Dizer não cedo faz parte do trabalho. Operação mal enquadrada custa tempo dos dois lados e desgasta a relação com as mesas lá fora.</p>
+    </div>
+    <div class="fit-grid reveal">
+      <div class="fit-col fit-yes">
+        <h3>Evilásio é para</h3>
+        <ul>
+          <li>Empresas em expansão, com faturamento estabelecido</li>
+          <li>Projetos cujo capital necessário supera o alcance do crédito local</li>
+          <li>Grupos com ativos elegíveis para estruturação de garantia</li>
+          <li>Empresários dispostos a passar por diagnóstico e análise real</li>
+          <li>Operações que se beneficiam de moeda forte e prazo longo</li>
+        </ul>
+      </div>
+      <div class="fit-col fit-no">
+        <h3>Evilásio não é para</h3>
+        <ul>
+          <li>Quem espera liberação sem processo de análise</li>
+          <li>Negócios sem faturamento ou estrutura formal constituída</li>
+          <li>Quem não pretende apresentar a documentação da operação</li>
+          <li>Valores já plenamente atendidos pelo crédito bancário local</li>
+          <li>Quem busca decisão baseada apenas em taxa</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ORIGEM ================= -->
+<section class="sect iceb" id="origem">
+  <div class="wrap orig-in">
+    <div class="reveal art-frame" style="position:relative;aspect-ratio:4/5;display:grid;place-items:center;background:radial-gradient(circle at 50% 42%,#0e2338,#08192a);overflow:hidden">
+      <img src="assets/img/evilasio/retrato.jpg" alt="Evilásio Júnior" style="width:100%;height:100%;object-fit:cover;object-position:center 20%">
+    </div>
+    <div class="reveal">
+      <div class="kicker">Origem</div>
+      <h2 class="h2" style="font-size:clamp(1.6rem,3vw,2.15rem)">Não é uma trajetória nova. É uma camada nova.</h2>
+      <p class="lead" style="margin-bottom:32px">Mais de vinte anos em desenvolvimento de negócios, a última década dedicada a crédito estruturado e capital internacional para empresas brasileiras.</p>
+      <div>
+        <div class="tl-i"><div class="tl-dot">01</div><div><h4>Duas décadas em desenvolvimento de negócios</h4><p>Base construída em originação, relacionamento comercial e condução de operações complexas.</p></div></div>
+        <div class="tl-i"><div class="tl-dot">02</div><div><h4>Head of Brazil Projects — Savel Capital Partners</h4><p>Conduzo a originação da Savel no Brasil desde 2023: identificação, qualificação e desenvolvimento de oportunidades em project e infrastructure finance, crédito corporativo e trade finance.</p></div></div>
+        <div class="tl-i"><div class="tl-dot">03</div><div><h4>Sócio &amp; CBO — Solidum Finance</h4><p>Respondo pela frente comercial da Solidum, boutique de arquitetura de capital e crédito estruturado, coordenando originação entre crédito corporativo, imobiliário estruturado e operações internacionais.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TIME ================= -->
+<section class="sect team dark" id="time" style="position:relative;overflow:hidden">
+  <div class="time-bg" id="timeBg">
+    <img class="active" src="assets/img/cta-bg/rede.png" alt="">
+    <img src="assets/img/cta-bg/grid.png" alt="">
+    <img src="assets/img/cta-bg/particulas.png" alt="">
+  </div>
+  <div class="scene" aria-hidden="true" style="opacity:.3">
+    <svg viewBox="0 0 1440 700" preserveAspectRatio="xMidYMid slice">
+      <rect width="1440" height="700" fill="#18212B"/>
+      <g stroke="#DCE6EA" stroke-width="1" opacity=".12" fill="none">
+        <path d="M120 0v700M300 0v700M480 0v700M660 0v700M840 0v700M1020 0v700M1200 0v700M1380 0v700"/>
+        <path d="M0 140h1440M0 300h1440M0 460h1440"/>
+      </g>
+      <g fill="#B59A5A" opacity=".06"><rect x="300" y="140" width="180" height="160"/><rect x="840" y="300" width="180" height="160"/></g>
+      <!-- silhueta -->
+      <g fill="#050f1a" opacity=".55">
+        <ellipse cx="1120" cy="330" rx="34" ry="40"/>
+        <path d="M1050 700c0-120 30-210 70-210s70 90 70 210z"/>
+      </g>
+    </svg>
+  </div>
+  <div class="wrap">
+    <div class="reveal">
+      <div class="kicker">Quem somos</div>
+      <h2 class="h2">Uma trajetória, não uma vitrine.</h2>
+    </div>
+    <div class="team-card team-card-split reveal">
+      <div class="team-fade" id="teamFade" style="background:radial-gradient(circle at 50% 42%,#233649,var(--navy));overflow:hidden">
+        <img class="active" src="assets/img/evilasio/mov-05.jpg" alt="Evilásio Júnior" style="position:static;width:100%;height:100%;object-fit:cover;object-position:center 15%">
+      </div>
+      <div>
+        <h3>Evilásio Júnior</h3>
+        <span class="team-role">Head of Brazil Projects na Savel Capital Partners · Sócio &amp; CBO na Solidum Finance</span>
+        <p>Atuo há mais de vinte anos no desenvolvimento de negócios e, na última década, com foco em crédito estruturado e capital internacional para empresas brasileiras, atuando diretamente na conexão entre empresas nacionais e capital estrangeiro junto a fundos e bancos nos Estados Unidos e na Europa.</p>
+        <p>Nossa atuação não é a de um intermediário de recursos: é a de um parceiro técnico que acompanha cada etapa da operação, do diagnóstico inicial à liquidação. Garantia, veículo, fluxo, governança e jurisdição precisam estar organizados antes de qualquer conversa sobre taxa — o empresário brasileiro raramente esbarra em falta de recurso, esbarra em ausência de estrutura que o recurso reconheça.</p>
+        <a href="#contato">Conheça a trajetória completa →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= NÚMEROS ================= -->
+<div class="nums">
+  <div class="wrap nums-grid reveal">
+    <div class="num"><b>US$ 900MM+</b><span>estruturados em operações internacionais</span></div>
+    <div class="num"><b>50–250%</b><span>leverage sobre o faturamento anual elegível</span></div>
+    <div class="num"><b>US$ 3–300MM</b><span>faixa de operação por estrutura</span></div>
+    <div class="num"><b><a href="https://www.planalto.gov.br/ccivil_03/leis/l4131.htm" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:4px">Lei 4131</a></b><span>isenção de tributos sobre o capital principal</span></div>
+  </div>
+</div>
+
+<!-- ================= FAQ ================= -->
+<!-- ================= CONTEXTO DE MERCADO ================= -->
+<section class="sect dark mkt-sect" id="mercado">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="kicker">Contexto de mercado</div>
+      <h2 class="h2">O que acontece quando uma empresa acessa capital internacional.</h2>
+      <p class="lead">Exemplos públicos e independentes de empresas brasileiras que captaram capital internacional, e o que mudou depois, segundo fontes jornalísticas e institucionais. São referências de mercado: o Evilásio não participou, intermediou ou foi responsável por nenhuma dessas operações.</p>
+    </div>
+
+    <div class="mkt-feature reveal" id="mktFeature">
+
+      <div class="mkt-slide active" data-i="0">
+        <div class="mkt-feat-logo-badge"><img class="mkt-feat-logo" src="assets/img/mercado/logos/nubank.png" alt="Nubank"></div>
+        <div class="mkt-feat-num">US$ 750MM</div>
+        <div class="mkt-feat-tag">Series G · Berkshire Hathaway · 2021 · valuation US$ 30 bi</div>
+        <p class="mkt-feat-p"><b>Depois:</b> em 2022, receita trimestral de US$ 1,3 bilhão (+171% a/a) e 70,4 milhões de clientes no Brasil, México e Colômbia.</p>
+        <div class="mkt-src">
+          <a href="https://www.reuters.com/technology/berkshire-leads-750-mln-nubank-funding-round-values-it-30-bln-2021-06-08/" target="_blank" rel="noopener">Fonte: operação (Reuters)</a>
+          <a href="https://www.reuters.com/business/finance/buffett-backed-nubanks-revenue-surges-robust-customer-growth-2022-11-14/" target="_blank" rel="noopener">Fonte: resultado (Reuters)</a>
+        </div>
+      </div>
+
+      <div class="mkt-slide" data-i="1">
+        <div class="mkt-feat-logo-badge"><img class="mkt-feat-logo" src="assets/img/mercado/logos/creditas.png" alt="Creditas"></div>
+        <div class="mkt-feat-num">US$ 260MM</div>
+        <div class="mkt-feat-tag">Series F · SoftBank, Fidelity, Wellington · 2022 · valuation US$ 4,8 bi</div>
+        <p class="mkt-feat-p"><b>Depois:</b> receita de R$ 551,4 milhões nos 9 primeiros meses de 2021 (mais que o dobro do ano anterior) e carteira de empréstimos quase triplicada, para R$ 2,9 bilhões.</p>
+        <div class="mkt-src">
+          <a href="https://www.reuters.com/markets/funds/softbank-backed-creditas-reaches-48-billion-valuation-new-funding-round-2022-01-25/" target="_blank" rel="noopener">Fonte: operação e resultado (Reuters)</a>
+          <a href="https://ir.creditas.com/ir/non-regulatory/creditas-announces-usd260-million-series-f-fundraising-round/" target="_blank" rel="noopener">Fonte: institucional</a>
+        </div>
+      </div>
+
+      <div class="mkt-slide" data-i="2">
+        <div class="mkt-feat-logo-badge"><img class="mkt-feat-logo" src="assets/img/mercado/logos/vtex.png" alt="VTEX"></div>
+        <div class="mkt-feat-num">US$ 361MM</div>
+        <div class="mkt-feat-tag">IPO na NYSE · 2021 · valuation de estreia US$ 4,7 bi</div>
+        <p class="mkt-feat-p"><b>Depois:</b> receita do 3T22 subiu de US$ 31,9MM para US$ 38,8MM (+21,6% a/a), com mais de 3.400 lojas online ativas em 43 países.</p>
+        <div class="mkt-src">
+          <a href="https://www.reuters.com/business/finance/softbank-backed-vtex-surges-32-nyse-debut-valued-47-bln-2021-07-21/" target="_blank" rel="noopener">Fonte: operação (Reuters)</a>
+          <a href="https://www.businesswire.com/news/home/20221110005628/en/VTEX-Reports-Third-Quarter-2022-Financial-Results" target="_blank" rel="noopener">Fonte: resultado 3T22</a>
+        </div>
+      </div>
+
+      <div class="mkt-slide" data-i="3">
+        <div class="mkt-feat-logo-badge"><img class="mkt-feat-logo" src="assets/img/mercado/logos/arco-educacao.png" alt="Arco Educação"></div>
+        <div class="mkt-feat-num">US$ 220MM</div>
+        <div class="mkt-feat-tag">IPO na Nasdaq · 2018 · oferta 10x subscrita</div>
+        <p class="mkt-feat-p"><b>Depois:</b> no IPO, atendia 1.140 escolas e mais de 400 mil alunos; posteriormente, realizou cerca de 20 aquisições e expandiu sua plataforma educacional.</p>
+        <div class="mkt-src">
+          <a href="https://www.reuters.com/article/markets/us/brazils-arco-platform-raises-220-mln-in-ipo-idUSL2N1WB2B3/" target="_blank" rel="noopener">Fonte: operação (Reuters)</a>
+          <a href="https://valorinternational.globo.com/business/news/2026/07/02/arco-invests-r190m-to-expand-english-learning-business.ghtml" target="_blank" rel="noopener">Fonte: expansão (Valor)</a>
+        </div>
+      </div>
+
+      <div class="mkt-slide" data-i="4">
+        <div class="mkt-feat-logo-badge"><img class="mkt-feat-logo" src="assets/img/mercado/logos/olist.png" alt="Olist" decoding="async" loading="eager"></div>
+        <div class="mkt-feat-num">R$ 190MM</div>
+        <div class="mkt-feat-tag">Rodada liderada pelo SoftBank · 2019 · aprox. US$ 46,65MM</div>
+        <p class="mkt-feat-p"><b>Depois:</b> meta declarada de ampliar a base de vendedores atendidos de 7 mil para 100 mil em dois anos, com expansão de logística e parcerias.</p>
+        <div class="mkt-src">
+          <a href="https://www.reuters.com/article/business/japans-softbank-invests-in-brazilian-marketplace-integrator-olist-idUSKBN1X20TI/" target="_blank" rel="noopener">Fonte: operação e plano (Reuters)</a>
+        </div>
+      </div>
+
+      <div class="mkt-dots" id="mktDots"></div>
+      <button class="mkt-arrow mkt-prev" aria-label="Anterior">←</button>
+      <button class="mkt-arrow mkt-next" aria-label="Próximo">→</button>
+    </div>
+
+    <div class="reveal" style="margin-top:36px">
+      <a href="#contato" class="btn btn-gold">Quero um diagnóstico como esses</a>
+    </div>
+    <p style="font-size:12px;color:rgba(220,230,234,.5);margin-top:28px;max-width:760px">Informações levantadas a partir de fontes públicas (Reuters, Valor Econômico e páginas institucionais das empresas citadas), a título de contexto educativo de mercado. Nenhuma das empresas acima é cliente da Evilásio Júnior.</p>
+  </div>
+</section>
+
+<section class="sect" id="faq">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="kicker">Perguntas frequentes</div>
+      <h2 class="h2">Antes de falar com o time.</h2>
+    </div>
+    <div class="faq-cols reveal">
+      <div>
+        <div class="faq-cat">
+          <div class="faq-cat-label">Sobre a operação</div>
+          <div class="faq-list">
+            <details open><summary>O Evilásio empresta o capital?</summary><p>Não. O Evilásio estrutura a operação e a representa institucionalmente junto a fundos, bancos e veículos financeiros internacionais, acompanhando todas as etapas até a liquidação.</p></details>
+            <details><summary>A operação gera endividamento junto ao BACEN?</summary><p>Operações estruturadas como aporte de capital internacional não geram registro de endividamento no Banco Central, por se enquadrarem em regime específico. O enquadramento exato de cada caso é confirmado no diagnóstico.</p></details>
+            <details><summary>Qual o prazo médio de uma estruturação?</summary><p>Depende da complexidade e da documentação disponível. O diagnóstico devolve um cronograma realista para o seu caso — não trabalhamos com promessa de prazo antes da análise.</p></details>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="faq-cat">
+          <div class="faq-cat-label">Elegibilidade e garantias</div>
+          <div class="faq-list">
+            <details><summary>Preciso comprovar capacidade de pagamento nos moldes tradicionais?</summary><p>Não da forma clássica. A elegibilidade é avaliada por faturamento, ativos e estrutura de garantias — não por score bancário ou comprovação convencional de renda.</p></details>
+            <details><summary>Que tipo de ativo pode integrar a estrutura de garantia?</summary><p>Determinados ativos podem integrar uma estrutura de garantia conforme natureza, documentação e enquadramento da operação, incluindo garantias próprias e de terceiros, operacionais e não operacionais.</p></details>
+            <details><summary>Existe custo para o diagnóstico inicial?</summary><p>A análise inicial de enquadramento não tem custo. Custos de estruturação, quando existirem, são apresentados por escrito antes de qualquer etapa seguinte.</p></details>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="cta" id="contato" style="background:url('assets/img/evilasio-cta-bg.png') center/cover no-repeat">
+  <div class="wrap">
+    <span class="quote">"Todo capital tem uma arquitetura."</span>
+    <h2>Comece pelo diagnóstico, não pela proposta.</h2>
+    <a href="#" class="btn btn-gold">Solicitar diagnóstico de elegibilidade</a>
+    <p class="cta-note">Análise inicial sem custo · Retorno sobre enquadramento em até 5 dias úteis</p>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="ft">
+  <div class="wrap">
+    <div class="ft-top">
+      <div>
+        <div class="brand" style="margin-bottom:18px">
+          <img src="assets/logo/ej-compact-gold.svg" alt="Evilásio Júnior" width="34" height="34">
+          <div class="brand-tx">EVILÁSIO<small>JÚNIOR</small></div>
+        </div>
+        <p style="max-width:270px;line-height:1.75">Av. Brigadeiro Faria Lima, 1572, Escritório 1022<br>Jardim Paulista, São Paulo/SP</p>
+        <div class="ft-social">
+          <a href="https://www.linkedin.com/in/evilasio-j-529851245/" aria-label="LinkedIn" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="#fff"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/evilasiojunioric" aria-label="Instagram" target="_blank" rel="noopener">
+            <svg class="ig-ic" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+          </a>
+          <a href="https://wa.me/5511926862108" aria-label="WhatsApp" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="#fff"><path d="M17.47 14.38c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.48-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.87 1.22 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35z"/><path d="M12 2a10 10 0 0 0-8.65 15.02L2 22l5.13-1.34A10 10 0 1 0 12 2zm0 18.2a8.17 8.17 0 0 1-4.17-1.14l-.3-.18-3.05.8.82-2.97-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div><h5>Soluções</h5><a href="#solucoes">Capital Advisory</a><a href="#solucoes">Structured Finance</a><a href="#solucoes">International Capital</a><a href="#solucoes">Asset Capital</a><a href="#solucoes">Corporate Funding</a></div>
+      <div><h5>Institucional</h5><a href="#origem">Origem</a><a href="#time">Time</a><a href="#alcance">Alcance</a><a href="#para-quem">Para quem é</a><a href="#faq">FAQ</a></div>
+      <div><h5>Contato</h5><a href="#contato">Solicitar diagnóstico</a></div>
+    </div>
+    <div class="ft-bot">
+      <span>© 2026 Evilásio Júnior. Todos os direitos reservados.</span>
+      <span>O Evilásio não é instituição financeira. Atua na estruturação e assessoria de operações.</span>
+    </div>
+  </div>
+</footer>
