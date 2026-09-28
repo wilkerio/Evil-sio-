@@ -1,32 +1,68 @@
-# Evil-sio-
+<div align="center">
 
-Frontend landing-page project built with React, TypeScript and Vite.
+# EVIL-SIO-
 
-## Overview
+### Frontend · Landing page · React · TypeScript
 
-Evil-sio- is a focused frontend project centered on presenting a product or service through a dedicated landing-page experience.
+<p>
+  <img src="https://img.shields.io/badge/React-18-111827?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/TypeScript-5-111827?style=for-the-badge&logo=typescript&logoColor=3178C6" />
+  <img src="https://img.shields.io/badge/Vite-5-111827?style=for-the-badge&logo=vite&logoColor=646CFF" />
+</p>
 
-The application keeps a deliberately small runtime stack and uses React as the rendering layer with Vite for development and production builds.
+**A focused frontend project for building a lightweight, presentation-oriented web experience.**
 
-## Technology
+</div>
 
-- React 18
-- TypeScript
-- Vite
-- React DOM
+---
 
-## Project structure
+## ✦ Overview
 
-The application entry point renders the main LandingPage component and loads the project stylesheet:
+Evil-sio- is a compact React application centered on a dedicated landing-page experience.
 
+The project deliberately keeps its runtime stack small:
+
+~~~text
+React
+  ↓
+LandingPage
+  ↓
+CSS
+  ↓
+Vite
+  ↓
+Web delivery
 ~~~
+
+This makes the repository a clean example of a focused frontend build without unnecessary backend complexity.
+
+---
+
+## 🧩 Project structure
+
+~~~text
 src/
 ├── main.tsx
 ├── LandingPage
 └── index.css
 ~~~
 
-## Development
+The application entry point renders the main LandingPage component and loads the project stylesheet.
+
+---
+
+## 🛠️ Stack
+
+| Layer | Technology |
+|---|---|
+| UI | React 18 |
+| Language | TypeScript |
+| Runtime | React DOM |
+| Build | Vite |
+
+---
+
+## 🚀 Development
 
 ~~~bash
 npm install
@@ -35,18 +71,24 @@ npm run build
 npm run preview
 ~~~
 
-## Engineering focus
+---
 
-~~~
-content
+## 🧠 Engineering model
+
+~~~text
+CONTENT
   ↓
-interface
+INTERFACE
   ↓
-React components
+REACT COMPONENTS
   ↓
-Vite build
+VITE BUILD
   ↓
-web delivery
+WEB DELIVERY
 ~~~
 
-This project demonstrates a focused approach to building lightweight, presentation-oriented web experiences without adding unnecessary backend complexity.
+<div align="center">
+
+**Simple stack. Focused interface. Clean delivery.**
+
+</div>
